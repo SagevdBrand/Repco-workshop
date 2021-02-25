@@ -13,6 +13,11 @@ source("./src/Functions.R")
 dm <- readRDS("./data/raw/dm_development.RDS")
 dm_val <- readRDS("./data/raw/dm_validation.RDS")
 
+#################################
+## Define number of predictors ##
+#################################
+n_pred <- 10
+
 ###############
 ## Define R2 ##
 ###############
@@ -22,10 +27,7 @@ dm_val <- readRDS("./data/raw/dm_validation.RDS")
 # event-rate (either 0.05, 0.2 or 0.5).
 R2 <- c(0.04131983, 0.12658143, 0.18407039)
 
-#################################
-## Define number of predictors ##
-#################################
-n_pred <- 10
+
 
 ############# OPTIMIZATION PROCESS ############
 
