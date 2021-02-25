@@ -42,3 +42,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# R history
+.Rhistory
